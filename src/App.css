@@ -1,0 +1,172 @@
+/* .panel-container {
+  width: 316px;
+  height: 496px;
+}
+
+.purple-layer {
+  width: 100%;
+  height: 14%;
+  background-color: rgb(78, 46, 153);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px; /* Adjust this value to raise or lower the text */
+/*}*/ 
+
+
+.panel-container {
+  width: 316px;
+  height: 496px;
+  background-color: rgb(31, 11, 56);
+}
+
+.purple-layer {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(78, 46, 153);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  top: -44px;
+  right: -105px;
+  
+}
+
+.tooltip-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: purple;
+  margin-right: 5px;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  bottom: 5px;
+}
+
+.tooltip.visible {
+  visibility: visible;
+}
+
+.gear-image {
+  display: flex;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+}
+
+.setting {
+  position: absolute;
+  top:  7px;
+  left:  280px;
+}
+
+.logo {
+  position: absolute;
+  left: 57px;
+  top: 4px;
+}
+
+.logo-image {
+  height: 40px;
+  width: 40px;
+  left: -100px;
+  top: 10px;
+}
+
+.submessage {
+  text-align: center;
+  position: absolute;
+  bottom: 870px;
+  font-weight: bold;
+  font-size: smaller;
+  top: 29px;
+  color: aliceblue;
+  font-style: italic;
+}
+.green-text {
+  color: lightgreen;
+
+}
+
+.white-text {
+  color: white;
+}
+
+.bottom-layer {
+  position: relative;
+  bottom: -441px;
+  padding: 5px;
+  width: 306px;
+  height: 14px;
+  background-color: rgb(78, 46, 153);
+  text-align: center;
+  justify-content: center;
+}
+
+.pwv {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-small;
+  top: -9px;
+  bottom: 100px;
+  right: 97px;
+  color: greenyellow;
+}
+
+.cop {
+  transform: scale(0.25);
+  position: absolute;
+  right: 13px;
+  top: -16.5px;
+}
+
+.tdots {
+  transform: scale(0.03);
+  position: absolute;
+  top: -177.5px;
+  right: -163px;
+}
